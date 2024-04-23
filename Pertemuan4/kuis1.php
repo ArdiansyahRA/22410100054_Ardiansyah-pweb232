@@ -40,15 +40,15 @@
             <label for="tinggi"> Tinggi: </label><br>
             <input type="text" class="tinggi"></input><br><br>
 
-            <button type="button" class="hitung" onclick="volume('balok')"> Hitung </button>
+            <button type="button" class="hitung" onclick="volume('vbalok')"> Hitung </button>
             <br><br>
         </form><br>
 
         <form id="formVKubus" class="formVKubus" style="display:none;">
-            <label for="sisi" class="balok"> Sisi: </label><br>
+            <label for="sisi"> Sisi: </label><br>
             <input type="text" class="sisi"></input><br><br>
 
-            <button type="button" class="hitung" onclick="volume('kubus')"> Hitung </button>
+            <button type="button" class="hitung" onclick="volume('vkubus')"> Hitung </button>
             <br><br>
         </form><br>
 
@@ -59,7 +59,7 @@
             <label for="tinggi"> Tinggi: </label><br>
             <input type="text" class="tinggi"></input><br><br>
 
-            <button type="button" class="hitung" onclick="volume('tabung')"> Hitung </button>
+            <button type="button" class="hitung" onclick="volume('vtabung')"> Hitung </button>
             <br><br>
         </form><br>
 
@@ -74,21 +74,16 @@
             <label for="tinggi"> Tinggi: </label><br>
             <input type="text" class="tinggi"></input><br><br>
 
-            <button type="button" class="hitung" onclick="luaspermukaan('balok')"> Hitung </button>
+            <button type="button" class="hitung" onclick="luaspermukaan('lpbalok')"> Hitung </button>
             <br><br>
         </form><br>
 
         <form id="formlpKubus" class="formlpKubus" style="display:none;">
-        <label for="panjang"> Panjang: </label><br>
-            <input type="text" class="panjang"></input><br><br>
+            <label for="sisi"> Sisi: </label><br>
+            <input type="text" class="sisi"></input><br><br>
 
-            <label for="lebar"> Lebar: </label><br>
-            <input type="text" class="lebar"></input><br><br>
 
-            <label for="tinggi"> Tinggi: </label><br>
-            <input type="text" class="tinggi"></input><br><br>
-
-            <button type="button" class="hitung" onclick="luaspermukaan('kubus')"> Hitung </button>
+            <button type="button" class="hitung" onclick="luaspermukaan('lpkubus')"> Hitung </button>
             <br><br>
         </form><br>
 
@@ -99,7 +94,7 @@
             <label for="tinggi"> Tinggi: </label><br>
             <input type="text" class="tinggi"></input><br><br>
 
-            <button type="button" class="hitung" onclick="luaspermukaann('tabung')"> Hitung </button>
+            <button type="button" class="hitung" onclick="luaspermukaan('lptabung')"> Hitung </button>
             <br><br>
         </form><br>
 
